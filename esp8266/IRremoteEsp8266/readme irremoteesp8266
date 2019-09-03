@@ -1,0 +1,26 @@
+primero baje la libreria irremoteesp8266 de aqui
+
+https://github.com/markszabo/IRremoteESP8266
+
+tuve que cargar el puerto serie porque el linux no los habilita a todos los usuarios, eso esta en la carpeta de ubuntu de mis documents como se hace.
+
+para hacer el receptod de IR use en ide arduino file/example/irremoteesp8266 IrrecvDumpV2 que modifique para quitar todos los aires qeu tenia y solo buscar los nuevos y le cambie el pin a D4
+
+https://platformio.org/lib/show/1089/IRremoteESP8266
+
+para hacer el emisor de ir use en ide arduio file/example/irremoteesp8266 IrsendDemo que modifique para eliminar los datos. sustituii la data raw por la que daba el irremotedumpv2 y le cambie el pin a D2
+
+https://platformio.org/lib/show/1089/IRremoteESP8266
+
+tambien use las pagina par montar el circuito tiene el sensor invertido en las figuras, tengo qeu ver eso...
+
+https://www.instructables.com/id/Universal-Remote-Using-ESP8266Wifi-Controlled/
+https://github.com/markszabo/IRremoteESP8266/wiki#ir-receiving
+
+auque no use el transistor como hicieron alli, use directo un emisor infrarojo de 3 patas que compre y no se como se llama.....
+
+
+Leerme esta pagina que parece interesante
+
+
+https://esp8266-shop.com/blog/esp8266-ir-remote-control-of-air-conditioners/
